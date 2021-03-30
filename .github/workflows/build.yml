@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: make
+    - name: compile
       run: gcc -pedantic -Werror -Wall quiz.c
-    - name: test
+    - name: execute
       run: ./a.out
