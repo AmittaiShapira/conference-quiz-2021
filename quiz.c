@@ -13,5 +13,5 @@ int main() {
          ans[i] = str[j];
          j--;
     }
-    printf("Quiz answer: %s", ans);
+    printf("Quiz answer: %s\n", ans);
 }
