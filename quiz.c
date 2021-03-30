@@ -3,7 +3,7 @@
 int main() {
     char ans[1000];
     int i, j, count = 0;
-    char *str = "1212 ECNE2EF3OC 4CNE5LECXE W6 EH7 N89J";
+    char *str = "12[1]2 ECNE[2]EF[3]OC [4]CNE[5]LECXE W[6] EH[7] N[8][9]J";
     
     while (str[count] != '\0') {
         count++;
