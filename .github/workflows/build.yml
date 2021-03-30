@@ -6,4 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make CFLAGS="-pedantic -Werror -Wall" quiz
+      run: gcc -pedantic -Werror -Wall quiz.c
+    - name: test
+      run: ./a.out
