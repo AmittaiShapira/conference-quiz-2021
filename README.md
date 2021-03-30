@@ -6,5 +6,5 @@ Just replace the numbers, ```[n]```, in the code with the letter in the numbered
 
 For bonus points, can you improve this code?
 
-- Make it compile successfully using ```gcc -pedantic -Werror quiz.c```
+- Make it compile successfully using ```gcc -pedantic -Wall -Werror quiz.c```
 - Remove all loop statements (tip: recursion)
