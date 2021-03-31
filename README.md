@@ -18,7 +18,7 @@ Example box number 3 on puzzle contains the letter "L"...
 
 - Add unit tests to demonstrate that the decoder works
 
-- Make sure that the code can compile successfully using ```gcc -std=c89 -pedantic -Werror -Wall quiz.c``` or another compiler with similar ANSI 89 and strictest warnings as errors.
+- Make sure that the code can compile successfully using ```gcc -std=c89 -pedantic -Werror -Wall -Wextra quiz.c``` or another compiler with similar ANSI 89 and strictest warnings as errors. *Note* take care on macos that you are using real gcc (not gcc mapped to clang).
 
 - Remove all loop statements (tip: recursion)
 

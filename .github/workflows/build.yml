@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: compile
-      run: gcc -std=c89 -pedantic -Werror -Wall quiz.c
+      run: gcc -std=c89 -pedantic -Werror -Wall -Wextra quiz.c
     - name: execute
       run: ./a.out
